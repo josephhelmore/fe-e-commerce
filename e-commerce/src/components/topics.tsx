@@ -1,6 +1,7 @@
 import CrimpDropdown from "./Topic-Dropdowns/crimps-dropdown";
 import JugsDropdown from "./Topic-Dropdowns/jugs-dropdown";
 import SlopersDropdown from "./Topic-Dropdowns/slopers-dropdown";
+import PinchesDropdown from "./Topic-Dropdowns/pinches-dropdown";
 
 export default function Topics() {
   return (
@@ -15,7 +16,9 @@ export default function Topics() {
       <div className="flex-1 text-center">
         <SlopersDropdown />
       </div>
-      <button className="flex-1 text-center hover:bg-gray-200">Pinches</button>
+      <div className="flex-1 text-center">
+        <PinchesDropdown />
+      </div>
       <button className="flex-1 text-center hover:bg-gray-200">Pockets</button>
     </section>
   );
