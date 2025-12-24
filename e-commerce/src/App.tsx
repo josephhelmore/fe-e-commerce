@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Header from "./components/header";
 import Topics from "./components/topics";
+import Article from "./components/article";
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -19,9 +20,9 @@ useEffect(() => {
       <div>
         <Header />
       </div>
-      <div>
+      
         <Topics />
-      </div>
+      <Article/>
     </section>
   );
 }

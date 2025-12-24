@@ -4,7 +4,7 @@ let topics = ["Crimps", "Jugs", "Slopers", "Pinches", "Pockets", "Foot Holds"];
 
 export default function Topics() {
   return (
-    <section className="flex font-['Tangerine'] text-2xl  px-5 rounded-xl font">
+    <section className="flex font-['Lugrasimo'] text-l  px-5 pb-20 rounded-xl font ">
       {topics.map((topic) => {
         return (
           <Menu as="div" className="relative flex-1 text-center">
