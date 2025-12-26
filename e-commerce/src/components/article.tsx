@@ -10,7 +10,7 @@ export default function Article() {
   return (
     <div
       className={`
-        w-full flex flex-row border rounded-2xl border-gray-500 transition-opacity duration-700
+        w-full flex flex-row  rounded-2xl border-gray-500 transition-opacity duration-700
         ${visible ? "opacity-100" : "opacity-0"}
        "w-full flex flex-row"`}
     >
