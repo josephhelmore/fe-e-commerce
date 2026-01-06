@@ -2,14 +2,13 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Header from "./components/header";
 import Topics from "./components/topics";
-import Article from "./components/article";
+import Article from "./components/popular";
 
 function App() {
   const [visible, setVisible] = useState(false);
-useEffect(() => {
-  setTimeout(() => setVisible(true), 0);
-}, []);
-
+  useEffect(() => {
+    setTimeout(() => setVisible(true), 0);
+  }, []);
 
   return (
     <section
@@ -20,9 +19,12 @@ useEffect(() => {
       <div>
         <Header />
       </div>
-      
+      <div className="sticky top-0 z-50 bg-black">
         <Topics />
-      <Article/>
+      </div>
+      <div>
+        <Article />
+      </div>
     </section>
   );
 }
