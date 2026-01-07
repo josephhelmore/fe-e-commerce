@@ -1,5 +1,5 @@
-import NavigationItem from "./Navigation/NavigationItem";
-import Dropdown from "./Navigation/Dropdown";
+import NavigationItem from "./NavigationItem";
+import Dropdown from "./Dropdown";
 
 const topics = [
   {
@@ -27,7 +27,7 @@ const topics = [
 
 export default function Topics() {
   return (
-    <section className="flex font-['Lugrasimo'] text-l px-5 pb-5 rounded-xl font">
+    <section className="flex font-['Lugrasimo'] text-l px-5 pb-10 rounded-xl font">
       <NavigationItem href="/">Home</NavigationItem>
       {topics.map((topic) => (
         <Dropdown key={topic.name} title={topic.name} items={topic.items} />

@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import Header from "./components/Home-Page/header";
-import Topics from "./components/topics";
-import Product from "./components/products";
+import Topics from "./components/Navigation/topics";
+import Product from "./components/Products/products";
+import About from "./components/Home-Page/about";
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -21,6 +22,9 @@ function App() {
       </div>
       <div className="sticky top-0 z-50 bg-black">
         <Topics />
+      </div>
+      <div>
+        <About/>
       </div>
       <div>
         <Product />

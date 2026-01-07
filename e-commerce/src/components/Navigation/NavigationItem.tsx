@@ -3,7 +3,10 @@ interface NavigationItemProps {
   children: React.ReactNode;
 }
 
-export default function NavigationItem({ href, children }: NavigationItemProps) {
+export default function NavigationItem({
+  href,
+  children,
+}: NavigationItemProps) {
   return (
     <div className="relative flex-1 text-center">
       <a
