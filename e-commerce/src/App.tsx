@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Header from "./components/header";
+import Header from "./components/Home-Page/header";
 import Topics from "./components/topics";
-import Article from "./components/popular";
+import Product from "./components/products";
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -23,7 +23,7 @@ function App() {
         <Topics />
       </div>
       <div>
-        <Article />
+        <Product />
       </div>
     </section>
   );

@@ -1,5 +1,5 @@
-import NavigationItem from "./NavigationItem";
-import Dropdown from "./Dropdown";
+import NavigationItem from "./Navigation/NavigationItem";
+import Dropdown from "./Navigation/Dropdown";
 
 const topics = [
   {
