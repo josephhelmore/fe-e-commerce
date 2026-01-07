@@ -27,7 +27,7 @@ const topics = [
 
 export default function Topics() {
   return (
-    <section className="flex font-['Lugrasimo'] text-l px-5 pb-10 rounded-xl font">
+    <section className="flex font-['Lugrasimo'] text-l px-5 pb-20 rounded-xl font">
       <NavigationItem href="/">Home</NavigationItem>
       {topics.map((topic) => (
         <Dropdown key={topic.name} title={topic.name} items={topic.items} />

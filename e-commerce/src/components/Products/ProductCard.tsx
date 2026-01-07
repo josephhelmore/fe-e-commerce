@@ -16,7 +16,7 @@ export default function ProductCard({ image, description, delay = 500 }: Product
   return (
     <div
       className={`
-        w-full flex flex-row rounded-2xl border-gray-500 transition-opacity duration-700 bg-black
+        w-full flex flex-row rounded-2xl border-gray-500 transition-opacity duration-700 bg-black pt-20
         ${visible ? "opacity-100" : "opacity-0"}
       `}
     >
