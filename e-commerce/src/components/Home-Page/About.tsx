@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className=" relative flex   text-white">
+    <section className=" relative flex   text-white mb-20">
       <img
         src="/products/BoLagotto.jpeg"
         alt="Lagotto"

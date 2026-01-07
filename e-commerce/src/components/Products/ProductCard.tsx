@@ -16,7 +16,7 @@ export default function ProductCard({ image, description, delay = 500 }: Product
   return (
     <div
       className={`
-        w-full flex flex-row rounded-2xl border-gray-500 transition-opacity duration-700 bg-black pt-20
+        w-full flex flex-row rounded-2xl border-gray-500 transition-opacity duration-700 bg-white
         ${visible ? "opacity-100" : "opacity-0"}
       `}
     >
@@ -28,7 +28,7 @@ export default function ProductCard({ image, description, delay = 500 }: Product
         />
         <div className="absolute inset-0 bg-gradient-to-l from-black/100 to-transparent" />
       </div>
-      <p className="pl-50 font-['Lugrasimo'] text-m text-left max-w-1/2 leading-8 pt-10 text-white">
+      <p className="pl-50 font-['Lugrasimo'] text-m text-left max-w-1/2 leading-8 text-white">
         {description}
       </p>
     </div>
